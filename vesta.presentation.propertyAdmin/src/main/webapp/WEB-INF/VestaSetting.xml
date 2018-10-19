@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SettingConfig>
+
+  <!-- 系统基本参数 -->
+  <BasicString
+          tokenCheckFlag="N"
+          userIDTest="develop"
+          staffIDTest="develop" />
+
+    <!-- 访问域 -->
+    <DomainString
+            cookieDomain="ssyhwx.maxrocky.com"
+            staffCookieDomain="ssyhwx.maxrocky.com" />
+
+    <!-- 访问域 -->
+    <DomainString
+            cookieDomain="ssyhwx.maxrocky.com"
+            staffCookieDomain="ssyhwx.maxrocky.com" />
+
+    <!--图片服务器默认路径-->
+    <!--picDefaultUrl="http://vestaimg.maxrocky.com/**"-->
+    <!--**为当前项目名，需要在OSS里新建-->
+    <!--updateMethod:server-个人服务器，oss-阿里云服务器-->
+    <!--D:\Tomcat\Admin\apache-tomcat-8.0.26\webapps\ROOT-->
+    <!--http://ssyhwx.maxrocky.com:55298-->
+    <PicDefaultUrlString
+            uploadMethod="server"
+            picServerInterUrl="/opt/image.server/images/images_source/"
+            picServerAdminUrl="/opt/image.server/images/images_source/"
+            picOSSInterUrl="http://211.94.93.223/jin_images/"
+            picOSSAdminUrl="http://211.94.93.223/jin_images/"
+            />
+    <!--picServerAdminUrl="/opt/image.server/images/images_source/"-->
+    <!--OSS图片上传基本参数-->
+    <OSSPramsString
+            AccessId="Hk7rS7kSVenV66Lc"
+            AccessKey="WhzAS0K3Fl3iqXF3GGuZRKd8PNMp5q"
+            OSSEndpoint="http://oss-cn-beijing.aliyuncs.com"
+            BucketName="vesta-hexie-img"
+            ProjectName="hexie/"
+            />
+
+    <!-- 图片地址连接 -->
+    <PictureURLString
+            userDefaultLogo="http://211.94.93.223/images/interface/user/head.png"
+            propertyurl="/property/admin/"
+            picturedomain="211.94.93.223"
+            advert = "advert/"
+            repairs="repairs/"
+            repairDetail="repairdetail/"
+            houseRental="houserental/"
+            iSay="isay/"
+            feedBack="feedback/"
+            photoGraph="photograph/"
+            activity="acticity/"
+            acticitySharing="acticitysharing/"
+            merchant="merchant/"
+            merchantGoods="merchantgoods/"
+            merchantActivity="merchantactivity/"
+            topic="topic/"
+            notice="notice/"
+            annocement="annocement/"
+            startPage="startpage/"
+            resources="resources/"
+            userLogo="userlogo/"
+            club="club/"
+            />
+
+
+    <!-- 短信验证 -->
+    <SMSString
+            checkFlag = "N"
+            defaultCode = "123456"
+            platform = ""
+            deadTime = "5" />
+</SettingConfig>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SettingConfig>
+
+    <!-- 系统基本参数 -->
+    <BasicString
+            tokenCheckFlag="N"
+            userIDTest="develop"
+            staffIDTest="develop" />
+
+    <!-- 访问域 -->
+    <DomainString
+            cookieDomain="ssyhwx.maxrocky.com"
+            staffCookieDomain="ssyhwx.maxrocky.com" />
+
+
+
+
+
+
+</SettingConfig>

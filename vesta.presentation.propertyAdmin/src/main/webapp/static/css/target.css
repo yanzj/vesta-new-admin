@@ -1,0 +1,225 @@
+.team-member {
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+
+.team-member h4 {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-transform: none;
+}
+.team-member .keyPress{
+    border: 1px solid #ccc;
+    background: #f1f1fa;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    text-align: center;
+}
+.team-member .keyPressTarget{
+    height: 120px;
+}
+.team-member .keyPressTarget2{
+    height: 120px;
+}
+.team-member .keyPressTarget h4{
+    width: 6%;
+    height: 120px;
+    border: 1px solid #ccc;
+    margin-top: -10px;
+    padding: 0;
+    border-top: 0;
+    line-height: 120px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+.team-member .keyPressTarget2 h4{
+    width: 6%;
+    height: 120px;
+    border: 1px solid #ccc;
+    margin-top: -10px;
+    padding: 0;
+    border-top: 0;
+    line-height: 120px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+.team-member .keyPressTarget ul{
+    width: 94%;
+    display: inline-block;
+    float: left;
+    height: 120px;
+    margin-top: -10px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-left: 0;
+    padding-left: 30px;
+}
+.team-member .keyPressTarget ul li{
+    float: left;
+    width: 99px;
+    height: 99px;
+    margin: 10px 20px 10px 0;
+    display: inline-block;
+}
+.team-member .keyPressTarget2 ul{
+    width: 94%;
+    display: inline-block;
+    float: left;
+    height: 120px;
+    margin-top: -10px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-left: 0;
+    padding-left: 30px;
+}
+.team-member .keyPressTarget2 ul li{
+    float: left;
+    width: 99px;
+    height: 99px;
+    margin: 10px 20px 10px 0;
+    display: inline-block;
+}
+.team-member .keypressDesc{
+    margin-left: -107px;
+}
+.team-member .keypressDesc .keyPressTarget2{
+    height: 80px;
+    line-height:80px;
+}
+.team-member .keypressDesc .keyPressTarget2 h4{
+    height: 80px;
+    line-height:80px;
+    margin-top: -20px;
+}
+.team-member .keypressDesc .keyPressTarget2 p{
+    display: inline-block;
+    float: left;
+    width: 94%;
+    height: 70px;
+    border: 1px solid #ccc;
+    margin-top: -10px;
+    border-top: 0;
+    border-left: 0;
+    padding: 0 10px;
+}
+
+.team-member p {
+    margin-top: 5px;
+}
+
+.text-muted {
+    margin-left: -10px;
+    color : #777;
+}
+.text-mutedKey {
+    border: 1px solid #ccc;
+    width: 900px;
+    margin-left: -30px;
+    height: 49px;
+    border-top: 0;
+    line-height: 46px;
+    padding-left: 20px;
+    margin-top: 0!important;
+}
+.text-mutedKey2 {
+    border: 1px solid #ccc;
+    width: 900px;
+    margin-left: -30px;
+    height: 52px;
+    border-top: 0;
+    line-height: 52px;
+    padding-left: 20px;
+    margin-top: 7px!important;
+}
+
+.team-member .imgSpan {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background: url("/static/images/logo.png") no-repeat center center;
+    background-size: contain;
+    margin-top: -10px;
+    overflow: hidden;
+}
+
+.team-member .imgSpan img {
+    width: 100%;
+    height: 100%;
+}
+
+.target {
+    width: 130px;
+}
+
+.targetImg {
+    width: 40%;
+}
+
+.targetHeader {
+    width: 83px;
+}
+
+.details {
+    margin-top: 10px;
+    cursor: pointer;
+    color: #0044cc
+}
+
+.des {
+    width: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+.des .status {
+    margin-left: -14px;
+    margin-right: -15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.annal {
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+.gallery {
+    list-style-type: none;
+}
+
+.none {
+    display: none;
+}
+.annalDes{
+    margin-left: -15px;
+    margin-right: 15px;
+}
+.annalDes .header{
+    margin-left: -16px;
+}
+.annalDes .header .span{
+    width: 150px;
+}
+.annalDes .detail{
+    width: 280px;
+}
+.annalDes .detail .detailsList{
+    margin-left: -70px;
+}
+.annalDes .detail .detailsList .targetImg{
+    width: 40%;
+    margin-left: -16px;
+}
+.annalDes .detail .detailsList .description{
+    margin-top: -105px;
+    margin-left: 114px;
+    width: 145px;
+}

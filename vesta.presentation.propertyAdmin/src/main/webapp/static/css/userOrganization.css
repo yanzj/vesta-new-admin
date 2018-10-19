@@ -1,0 +1,379 @@
+/*组织架构管理*/
+*{
+	list-style: none;
+}
+li{
+	cursor:pointer;
+}
+.ztree{
+	width: 175px;
+	height: 300px;
+	overflow: auto;
+}
+.ztree li{
+	width:175px;
+}
+.fillAgeNumber{
+	width:5%;
+	height:35px;
+}
+.showAge,.totalAge{
+	display: inline-block;
+}
+/*页码数*/
+.pageNumber{
+	display: none;
+}
+.pageNumber input{
+	text-align: center;
+}
+.sure{
+	display: inline-block;
+}
+.optionClassPage{
+	display: inline;
+	font-size: 1.5rem;
+	color: blue;
+}
+.container1{
+	margin-top:82px;
+	margin-left:200px;
+	width:90%;
+}
+.container1.userStaffManage{
+	margin-top:0px;
+	margin-left:0px;
+	width:100%;
+}
+.position{
+	margin-top:20px;
+	margin-right:83px;
+	float:left;
+}
+.position span:nth-child(odd){
+	color:red;
+}
+.position span:nth-child(2){
+	color:blue;
+}
+.navbar-form{
+	float:left;
+}
+.btn-button{
+	width:100px;
+	height: 30px;
+	background:#0D165E;
+	color:#fff;
+}
+.typeList div{
+	border:1px solid #fff;
+	text-align: center;
+	border:1px solid #ccc;
+	border-bottom: none;
+	cursor:pointer;
+	width:60px;
+	float:left;
+}
+/*编辑里面的*/
+.typeList .typeList_department_role{
+	border:none;
+	background: none;
+}
+.typeList_department_role,.typeList_department_project{
+	margin-left: 20%;
+}
+.serach_employees{
+	display: none;
+}
+.employees_sunmit{
+	float: left;
+}
+/*.company_header,*/
+.department_header{
+	display: none;
+	background: #06315D;
+	color:#fff;
+}
+.company_header{
+	display: none;
+	background: #06315D;
+	color:#fff;
+}
+.publicTbody{
+
+}
+/*.serach_people_key{
+	display: none;
+}*/
+button{
+	/*width: 6%;*/
+	cursor: pointer;
+}
+.newOrganization{
+	display: inline-block;
+	float: right;
+	margin-top:10px;
+	margin-right: 20px;
+	padding-left:50px;
+}
+.department{
+	margin-top: -3%;
+}
+.waitSelect{
+	margin-left:4%;
+}
+#leftReception,#left,#left2,#left3,#left4,#left5,#left6,#left7,#leaderLeft,#left8,#left9,#leftDispatch,#leftHQ,#leftRepair1,#leftComplaint{
+	width: 160px;
+	/* margin-right: 50px; */
+	height: 200px;
+	float: left;
+	margin-left: 20%;
+}
+#right,#right2,#right3,#right4,#right5,#right6,#right7,#leaderRight,#right8,#right9,#rightDispatch,#rightHQ,#rightReception,#rightRepair1,#rightComplaint{
+	width: 160px;
+	height: 200px;
+	float: right;
+	margin-right: -6%;
+}
+
+/*移动按钮*/
+#btnRComplaint,#btnRReception,#btnDComplaint,#btnDReception,#btnR,#btnD,#btnR2,#btnD2,#btnR3,#btnD3,#btnR4,#btnD4,#btnR5,#btnD5,#btnR6,#btnD6,#btnR7,#btnD7,#leaderBtnR,#leaderBtnD,#btnR8,#btnD8,#btnR9,#btnD9,#btnDDispatch,#btnRDispatch,#btnDHQ,#btnRHQ,#btnRRepair1,#btnDRepair1{
+	float: right;
+	margin-left:1%;
+	display:inline-block;
+	width:65%;
+	background: #286090;
+	border-radius: 3px;
+	color: #fff;
+	border:none;
+	margin-top: 30%;
+}
+.btnB{
+	width: 800px;
+	height: 2px;
+	border-top: 1px dashed #ccc;
+	background-color: white;
+	margin-top: 30px;
+}
+.confirmComplaint,.confirmReception,.confirm,.confirm2,.confirm3,.confirm4,.confirm5,.confirm6,.confirm7,.cancel,.confirmLeader,.confirm8,.confirm9,.confirmDispatch,.confirmHQ,.confirmRepair1{
+	width:15%;
+	background: #0D165E;
+	color: #fff;
+	border:none;
+	float: left;
+	border-radius: 3px;
+}
+.cancel{
+	float: left;
+	margin: 0 0 0 5%;
+	border-radius: 3px;
+}
+.moveBtn,.moveBtn2,.moveBtn3,.moveBtn4,.moveBtn5,.moveBtn6,.moveBtn7,.moveBtnLeader,.moveBtn8,.moveBtn9,.moveBtnDispatch,.moveBtnHQ{
+	margin-top:3%;
+}
+
+.departmentComplaint h5,.departmentReception h5,.departmentRepair1 h5,.department h5,.department2 h5,.department3 h5,.department4 h5,.department5 h5,.department6 h5,.department7 h5,.departmentLeader h5,.department8 h5,.department9 h5,.departmentDispatch  h5,.departmentHQ  h5{
+	margin-left: 43%;
+}
+
+.addPeopleComplaint,.addPeopleReception,.addPeopleRepair1,.addPeople,.addPeople2,.addPeople3,.addPeople4,.addPeople5,.addPeople6,.addPeople7,.addPeopleLeader,.addPeople8,.addPeople9,.addPeopleDispatch,.addPeopleHQ {
+	/*
+	float:left;
+	margin-top: 1%;*/
+	display: none;
+	float: left;
+	margin-left: -33%;
+	/*margin-top: 4%;*/
+}
+.addPeople5,.addPeople2,.addPeopleLeader,.addPeople8,.addPeople9,.addPeopleDispatch,.addPeopleHQ {
+	/*left: 6%;*/
+	padding-left: 10px;
+}
+.containerSelect1 .row:ntn-child(2){
+
+}
+/*用户新建角色*/
+
+.role_new_submit{
+	border-bottom: 1px solid #999999;
+}
+.newRoleSubmit{
+	float:right;
+	margin-bottom: 20px;
+}
+
+.closed{
+	margin-right: 70px;
+}
+.save,.closed{
+	background:#3366CC;
+	width:80px;
+	margin-bottom: 20px;
+}
+.userStaffManage .save {
+	height: 34px;
+	margin-bottom: 0px;
+}
+.role_table_title{
+	margin-left:40%;
+}
+.role_table_roleName{
+	width:20%;
+	text-align: center;
+	font-size: 1.0rem;
+	padding-bottom: 8px;
+}
+.role_table_roleName2{
+	padding-bottom: 8px;
+}
+.role_table_fillCont{
+	padding-bottom: 8px;
+}
+.role_table_content{
+	padding-bottom: 0;
+}
+.roleNameText{
+	border: none;
+	width: 20rem;
+	padding-bottom: 8px;
+	padding-left: .5rem;
+	/*border-bottom: 1px solid #666;*/
+}
+.existence,.existence2{
+	display: inline-block;
+}
+.role_remind{
+	float:right;
+	margin-right: 2%;
+	color:#FF0000;
+}
+.role_select,.role_select2{
+	float:right;
+	margin-right: 2%;
+	color:#0000FF;
+	cursor:pointer;
+}
+.role_table_titleable_roleName{
+	text-align: center;
+}
+.role_form{
+	line-height: 1rem;
+}
+.role_form{
+	vertical-align: middle;
+}
+.role_form span{
+	font-size: 1.35rem;
+	line-height: 1rem;
+}
+.role_table_roleName2{
+	width:18%;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.role_table_info{
+	font-size: 1.5rem;
+}
+.role_table_info td{
+	background: #F2F2F2;
+}
+.role_table_info td:nth-child(1){
+	width:25%;
+	border-right:hidden;
+}
+
+.role_form{
+	padding-bottom: -8px;
+}
+/*被弹出的模态框select1*/
+.containerSelect1{
+	width:800px;
+	/*height: 550px;*/
+}
+
+
+
+#left  #htmlGroup,#left2  #htmlGroup,#left3  #htmlGroup,#left4 #htmlGroup,#left5 #htmlGroup,#left6 #htmlGroup,#left7 #htmlGroup,#left8 #htmlGroup,#left9 #htmlGroup,#leftDispatch  #htmlGroup,#leftHQ  #htmlGroup{
+	display: none;
+}
+#left #htmlPerson,#left2 #htmlPerson,#left3 #htmlPerson,#left4 #htmlPerson,#left5 #htmlPerson,#left6 #htmlPerson,#left7 #htmlPerson,#leaderLeft #htmlPerson,#left8 #htmlPerson,#left9 #htmlPerson,#leftDispatch #htmlPerson,#leftHQ #htmlPerson {
+	display: none;
+}
+#left #htmlDepartment,#left2 #htmlDepartment,#left3 #htmlDepartment,#left4 #htmlDepartment,#left5 #htmlDepartment,#left6 #htmlDepartment,#left7 #htmlDepartment,#left8 #htmlDepartment,#left9 #htmlDepartment,#leftDispatch #htmlDepartment,#leftHQ #htmlDepartment{
+	display: none;
+}
+/*#right #htmlGroup{
+	display: none;
+}
+#right #htmlPerson{
+	display: none;
+}*/
+/*搜索*/
+.serach_people_keyComplaint,.serach_people_keyReception,.serach_people_keyRepair1,.serach_people_key,.serach_people_key2,.serach_people_key3,.serach_people_key4,.serach_people_key5,.serach_people_key6,.serach_people_key7,.serach_people_keyLeader,.serach_people_key8,.serach_people_key9,.serach_people_keyDispatch,.serach_people_keyHQ{
+	width:70%;
+	height: 2.705rem;
+}
+.serach_people_keyComplaint,serach_people_keyReception,.serach_people_keyRepair1,.serach_people_key,.serach_people,.serach_people_key2,.serach_people2,.serach_people_key3,.serach_people3,.serach_people_key4,.serach_people4,.serach_people_key5,.serach_people5,.serach_people_key6,.serach_people6,.serach_people_key7,.serach_people7,.serach_people_keyLeader,.serach_peopleLeader,.serach_people_key8,.serach_people8,.serach_people_key9,.serach_people9,.serach_people_keyDispatch,.serach_peopleDispatch,.serach_people_keyHQ,.serach_peopleHQ{
+	/*height:5%;*/
+	float:left;
+	border-radius: 2px;
+	border-style: solid;
+	border: 1px solid #ccc;
+}
+.serach_peopleComplaint,.serach_peopleReception,.serach_peopleRepair1,.serach_people,.serach_people2,.serach_people3,.serach_people4,.serach_people5,.serach_people6,.serach_people7,.serach_peopleLeader,.serach_people8,.serach_people9,.serach_peopleDispatch,.serach_peopleHQ{
+	/*width:20%;*/
+	/*float:left;*/
+	margin-left:2%;
+	/*height: 2.705rem;*/
+	/*text-align: center;*/
+	border: none;
+	border-radius: 2px;
+	width: 25%;
+	height: 25px;
+	background: #003366;
+	color: #fff;
+	margin-top: 4px;
+
+}
+.resultPeople,.resultPeople2,.resultPeople3,.resultPeople4,.resultPeople5,.resultPeople6,.resultPeople7,.resultPeopleLeader,.resultPeople8,.resultPeople9,.resultPeopleDispatch,.resultPeopleHQ{
+	display: inline-block;
+	cursor: pointer;
+	padding-top: 5px;
+}
+.floatSelectResult{
+	float:left;
+	/*width:15%;*/
+	color: blue;
+}
+/*模态框常用组*/
+.oftenGroup{
+	margin-left:31.5%;
+}
+.resultPeopleDiv{
+	text-align: center;
+}
+.content_wrap2 li,.content_wrapLeader li,.content_wrap8 li,.content_wrap9 li,.content_wrapDispatch li,.content_wrapHQ li{
+	cursor: pointer;
+	padding-top:5px;
+}
+.content_wrap li,.content_wrap3 li,.content_wrap4 li{
+	cursor: pointer;
+	padding-top:5px;
+}
+/*组织列表*/
+#left #htmlGroup,#left2 #htmlGroup2,#left3 #htmlGroup3,#left4 #htmlGroup4,#left5 #htmlGroup5,#left6 #htmlGroup6,#left7 #htmlGroup7,#left8 #htmlGroup8,#left9 #htmlGroup9,#leftDispatch #htmlGroupDispatch,#leftHQ #htmlGroupHQ{
+	display: none;
+}
+#left #htmlPerson,#left2 #htmlPerson2,#left3 #htmlPerson3,#left4 #htmlPerson4,#left5 #htmlPerson5,#left6 #htmlPerson6,#left7 #htmlPerson7,#leaderLeft #htmlPersonLeader,#left8 #htmlPerson8,#left9 #htmlPerson9,#leftDispatch #htmlPersonDispatch,#leftHQ #htmlPersonHQ{
+	display: none;
+}
+#left #htmlDepartment,#left2 #htmlDepartment2,#left3 #htmlDepartment3,#left4 #htmlDepartment4,#left5 #htmlDepartment5,#left6 #htmlDepartment6,#left7 #htmlDepartment7,#left8 #htmlDepartment8,#left9 #htmlDepartment9,#leftDispatch #htmlDepartmentDispatch,#leftHQ #htmlDepartmentHQ{
+	display: none;
+}
+/*#right3 #htmlGroup{
+	display: none;
+}
+#right3 #htmlPerson{
+	display: none;
+}*/

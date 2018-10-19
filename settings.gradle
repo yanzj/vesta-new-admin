@@ -1,0 +1,115 @@
+rootProject.name = 'vesta-new'
+
+include 'vesta.common.result'
+include 'vesta.common.utility'
+include 'vesta.common.exception'
+include 'vesta.common.taglib'
+include 'vesta.common.task'
+include 'vesta.common.filter'
+
+include 'vesta.presentation.propertyAdmin'
+
+include 'vesta.domain.role'
+include 'vesta.repository.role'
+include 'vesta.application.role'
+
+include 'vesta.domain.user'
+include 'vesta.repository.user'
+include 'vesta.application.user'
+
+include 'vesta.domain.system'
+include 'vesta.repository.system'
+include 'vesta.application.system'
+
+include 'vesta.domain.house'
+include 'vesta.repository.house'
+include 'vesta.application.house'
+
+include 'vesta.domain.sms'
+include 'vesta.repository.sms'
+include 'vesta.application.sms'
+
+include 'vesta.domain.property'
+include 'vesta.repository.property'
+include 'vesta.application.property'
+
+include 'vesta.domain.message'
+include 'vesta.repository.message'
+include 'vesta.application.message'
+
+include 'vesta.domain.mall'
+include 'vesta.repository.mall'
+include 'vesta.application.mall'
+
+include 'vesta.domain.community'
+include 'vesta.repository.community'
+include 'vesta.application.community'
+
+include 'vesta.domain.advertisement'
+
+include 'vesta.domain.workbench'
+include 'vesta.repository.workbench'
+include 'vesta.application.workbench'
+
+include 'vesta.domain.say'
+include 'vesta.repository.say'
+include 'vesta.application.say'
+
+include 'vesta.domain.pay'
+include 'vesta.repository.pay'
+include 'vesta.application.pay'
+
+include 'vesta.domain.translog'
+include 'vesta.application.translog'
+include 'vesta.repository.translog'
+
+include 'vesta.application.charge'
+include 'vesta.domain.charge'
+include 'vesta.repository.charge'
+
+include 'vesta.application.statistics'
+include 'vesta.domain.statistics'
+include 'vesta.repository.statistics'
+
+include 'vesta.domain.sysmanage'
+include 'vesta.application.sysmanage'
+include 'vesta.repository.sysmanage'
+
+include 'vesta.application.homePage'
+include 'vesta.domain.homePage'
+include 'vesta.repository.homePage'
+
+include 'vesta.domain.coupon'
+include 'vesta.repository.coupon'
+
+include 'vesta.domain.stand'
+
+include 'vesta.application.webServiceServer'
+include 'vesta.application.webServiceClient'
+
+include 'vesta.domain.plan'
+include 'vesta.application.announcement'
+include 'vesta.domain.announcement'
+include 'vesta.repository.announcement'
+include 'vesta.application.plan'
+include 'vesta.repository.plan'
+
+include 'vesta.repository.stand'
+
+include 'vesta.application.stand'
+include 'vesta.application.webServiceClientNew'
+include 'vesta.application.construction'
+include 'vesta.domain.construction'
+include 'vesta.repository.construction'
+
+include 'vesta.application.versionManage'
+include 'vesta.domain.versionManage'
+include 'vesta.repository.versionManage'
+
+include 'vesta.application.security'
+include 'vesta.domain.security'
+include 'vesta.repository.security'
+include 'vesta.domain.complain'
+include 'vesta.repository.complain'
+include 'vesta.application.complain'
+

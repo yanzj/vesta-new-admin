@@ -1,0 +1,24 @@
+/**
+ * Describe:
+ *  该模块组件包含业务模块如下:
+ *  信息服务_社区公告/投票信息管理
+ *  总部功能模块_商业公告/电子杂志/视频管理
+ * CreateBy:WeiYangDong_2017/10/25
+ */
+version 'unspecified'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":vesta.repository.announcement")
+    compile project(":vesta.domain.announcement")
+    compile project(":vesta.application.community")
+
+    compile project(":vesta.common.result")
+    compile project(":vesta.common.utility")
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

@@ -1,0 +1,17 @@
+version 'unspecified'
+
+apply plugin: 'java'
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":vesta.domain.statistics")
+    compile project(":vesta.domain.house")
+    compile project(":vesta.domain.property")
+    compile project(":vesta.common.utility")
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

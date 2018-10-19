@@ -1,0 +1,34 @@
+version 'unspecified'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":vesta.domain.workbench")
+    compile project(":vesta.domain.role")
+    compile project(":vesta.domain.user")
+    compile project(":vesta.domain.say")
+    compile project(":vesta.domain.system")
+
+
+
+    compile project(":vesta.repository.user")
+    compile project(":vesta.repository.workbench")
+    compile project(":vesta.repository.role")
+    //compile project(":vesta.repository.demo")
+
+    compile project(":vesta.application.house")
+    compile project(":vesta.application.property")
+    compile project(":vesta.application.user")
+    compile project(":vesta.application.plan")
+    compile project(":vesta.application.webServiceClient")
+
+    compile project(":vesta.common.utility")
+    compile project(":vesta.common.result")
+    compile project(":vesta.common.exception")
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

@@ -1,0 +1,26 @@
+version 'unspecified'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":vesta.common.result")
+    compile project(":vesta.common.utility")
+    compile project(":vesta.domain.message")
+    compile project(":vesta.domain.property")
+    compile project(":vesta.repository.message")
+    compile project(":vesta.repository.system")
+    compile project(":vesta.common.exception")
+    compile project(":vesta.application.webServiceClient")
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile(
+            "cn.featherfly:bccs-api:3.0.1",
+//            "com.notnoop.apns:apns:0.1.6"
+            "com.notnoop.apns:apns:0.2.3"
+    )
+}
+

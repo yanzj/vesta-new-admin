@@ -1,0 +1,194 @@
+
+.newDetail__{
+    background: #FFF;
+    font-size: 14px;
+    font-family: "microsoft yahei", "微软雅黑", Verdana, STHeiTi, simsun, sans-serif;
+    top: 90px;
+    left: 215px;
+}
+.newDetail__ .nav{
+    position: relative;
+    width: 1020px;
+    height: 40px;
+    margin-top: -36px;
+    line-height: 33px;
+    border-bottom: 1px solid #333;
+}
+.newDetail__ .p{
+    display: inline-block;
+    float: left;
+}
+.newDetail__ .nav .navTitle{
+    text-align: right;
+    padding-left: 30px;
+}
+.newDetail__ .notice_inner .sideTitle{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    /*padding: 0 40px;*/
+}
+.newDetail__ .notice_inner .sideTitle span{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    /*padding-left: 25px;*/
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 20px;
+}
+.newDetail__ .nav .navTitle_now_place{
+
+}
+.newDetail__ .nav .save,.nav .cancel{
+    color: #f3f9fc;
+    width: 90px;
+    height: 33px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 3.5px;
+}
+.newDetail__ .rightButton{
+    float: right;
+}
+.newDetail__ .nav .save{
+    background:#009dd9 ;
+}
+.newDetail__ .nav .cancel{
+    background:#6633cc;
+}
+/*中心区域*/
+.newDetail__ .notice_head{
+    width: 555px;
+    height: auto;
+    /*margin-left: 42px;*/
+}
+.newDetail__ .notice_head h2{
+    height: 55px;
+    text-align: right;
+    margin-right: 45px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.notice_head span{
+    display: inline-block;
+    height: 35px;
+    line-height: 40px;
+}
+.notice_time,.record_num{
+    /*margin-left: 5px;*/
+    width: 295px;
+}
+
+.newDetail__ .border_{
+    margin-left: 20px;
+    width: 555px;
+    height: 20px;
+    border-top: 1px solid #cccccc;
+}
+.newDetail__ .notice_inner{
+    position: relative;
+    width: 555px;
+    /*margin-left: 22px;*/
+    /*padding-left: 25px;*/
+}
+.newDetail__ .notice_inner .keyComTitle{
+    border-bottom: 1px dashed #ccc;
+    font-size: 18px;
+    line-height: 50px;
+    /*margin-left: 30px;*/
+    margin: 0;
+}
+
+.newDetail__ .notice_inner>div{
+    display: block;
+    width: 655px;
+    /*height: 25px;*/
+    height: auto;
+    overflow: hidden;
+}
+
+.newDetail__ .mun_pic .control>div,.newDetail__ .repaired_pic .control>div{
+    float: left;
+}
+.newDetail__ .notice_inner .key1{
+    float: left;
+    width: 90px;
+    text-align: right;
+}
+.newDetail__ .control{
+    float: left;
+    margin-bottom: 18px;
+}
+.newDetail__ .notice_inner .mun_pic,.newDetail__ .notice_inner .repaired_pic{
+    height: auto;
+}
+.newDetail__ .mun_pic div.image,.newDetail__ .repaired_pic div.image{
+    position: relative;
+    clear: both;
+    display: block;
+    width: 60px;
+    height: 60px;
+    /*border: 1px solid red;*/
+    margin: 30px 20px 0 90px;
+}
+.newDetail__ .mun_pic div.image .bigImg,.newDetail__ .repaired_pic div.image .bigImg{
+    position: absolute;
+    display: none;
+    top: -76px;
+    left: -70px;
+    width: 200px;
+    height: 200px;
+    /*border: 1px solid red;*/
+
+}
+.newDetail__ .repair_per{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.newDetail__ .notice_inner .border1{
+    height: 15px;
+    margin-left: -20px;
+    margin-top: 15px;
+    width: 980px;
+    border-bottom: 1px dashed #ccc;
+}
+.newDetail__ .notice_inner .borderDay{
+    margin-top: 15px;
+    width: 96%;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #ccc;
+    margin: 28px 0;
+}
+.newDetail__ .control>div{
+    height: 18px;
+}
+
+.newDetail__ .control>div{
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 10px;
+}
+/*right-image*/
+.newDetail__ div.right_image{
+    position: absolute;
+    width: 395px;
+    height: 445px;
+    top: 0;
+    right: -395px;
+}
+.newDetail__ div.right_image img{
+    margin-left: 30px;
+}
+.gallery .sideTime{
+    margin-left: 9px;
+    width: 84px;
+    height: 25px;
+    background: #ccc;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 25px;
+}

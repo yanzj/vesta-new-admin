@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:ws="http://jax-ws.dev.java.net/spring/core"
+       xmlns:wss="http://jax-ws.dev.java.net/spring/servlet"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://jax-ws.dev.java.net/spring/core
+        http://jax-ws.dev.java.net/spring/core.xsd
+        http://jax-ws.dev.java.net/spring/servlet
+        http://jax-ws.dev.java.net/spring/servlet.xsd"
+>
+ 
+    <wss:binding url="/BasicUserInfo">
+        <wss:service>
+            <ws:service bean="#UserInfoService"/>
+        </wss:service>
+    </wss:binding>
+    <bean id="UserInfoService" class="com.maxrocky.vesta.application.ws.TestUserInfoService"></bean>
+
+    <wss:binding url="/BasicRepairInfo">
+        <wss:service>
+            <ws:service bean="#RepairInfoService"/>
+        </wss:service>
+    </wss:binding>
+    <bean id="RepairInfoService" class="com.maxrocky.vesta.application.ws.TestRepairInfoService"></bean>
+
+    <wss:binding url="/BasicDeliveryPlan">
+        <wss:service>
+            <ws:service bean="#DeliveryPlanService"/>
+        </wss:service>
+    </wss:binding>
+    <bean id="DeliveryPlanService" class="com.maxrocky.vesta.application.ws.TestDeliveryPlanService"></bean>
+
+    <wss:binding url="/BasicHousingOrders">
+        <wss:service>
+            <ws:service bean="#HousingOrderService"/>
+        </wss:service>
+    </wss:binding>
+    <bean id="HousingOrderService" class="com.maxrocky.vesta.application.ws.TestHousingOrders"></bean>
+
+    <wss:binding url="/BasicClassificationUser">
+    <wss:service>
+        <ws:service bean="#ClassificationUserService"/>
+    </wss:service>
+    </wss:binding>
+    <bean id="ClassificationUserService" class="com.maxrocky.vesta.application.ws.TestClassificationUserService"></bean>
+
+    <wss:binding url="/BasicComplaint">
+        <wss:service>
+            <ws:service bean="#ComplaintService"/>
+        </wss:service>
+    </wss:binding>
+    <bean id="ComplaintService" class="com.maxrocky.vesta.application.ws.TestComplainService"></bean>
+
+
+    <wss:binding url="/BasicAuthAgency">
+        <wss:service>
+            <ws:service bean="#AuthAgencyService"/>
+        </wss:service>
+    </wss:binding>
+    <bean id="AuthAgencyService" class="com.maxrocky.vesta.application.ws.TestAuthAgencyService"></bean>
+<!--
+    &lt;!&ndash; Web service methods &ndash;&gt;
+    <bean id="helloWs" class="com.mkyong.ws.HelloWorldWS">
+    	<property name="helloWorldBo" ref="HelloWorldBo" />
+    </bean>
+    
+    <bean id="HelloWorldBo" class="com.mkyong.bo.impl.HelloWorldBoImpl" />
+    -->
+</beans>

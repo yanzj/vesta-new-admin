@@ -1,0 +1,44 @@
+version 'unspecified'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":vesta.domain.advertisement")
+    compile project(":vesta.application.message")
+    compile project(":vesta.application.role")
+    compile project(":vesta.application.sysmanage")
+    compile project(":vesta.application.house")
+    compile project(":vesta.application.user")
+    compile project(":vesta.application.system")
+    compile project(":vesta.application.webServiceClient")
+    compile project(":vesta.common.exception")
+    compile project(":vesta.common.utility")
+    compile project(":vesta.common.result")
+    compile project(":vesta.domain.announcement")
+    compile project(":vesta.domain.property")
+    compile project(":vesta.domain.say")
+    compile project(":vesta.domain.user")
+    compile project(":vesta.domain.role")
+    compile project(":vesta.domain.sysmanage")
+    compile project(":vesta.domain.system")
+    compile project(":vesta.domain.translog")
+    compile project(":vesta.domain.workbench")
+    compile project(":vesta.domain.advertisement")
+    compile project(":vesta.repository.property")
+    compile project(":vesta.repository.say")
+    compile project(":vesta.repository.translog")
+    compile project(":vesta.repository.user")
+    compile project(":vesta.repository.workbench")
+    compile project(":vesta.repository.announcement")
+    compile project(":vesta.domain.announcement")
+
+    compile (
+            "org.apache.poi:poi-ooxml:3.6"
+    )
+    compile project(":vesta.repository.role")
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

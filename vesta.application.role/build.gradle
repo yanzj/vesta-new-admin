@@ -1,0 +1,17 @@
+version 'unspecified'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":vesta.repository.role")
+    compile project(":vesta.common.utility")
+    compile project(":vesta.common.result")
+    compile project(":vesta.repository.construction")
+    compile project(":vesta.domain.security")
+    compile project(":vesta.repository.security")
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

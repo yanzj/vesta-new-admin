@@ -1,0 +1,20 @@
+version 'unspecified'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":vesta.domain.charge")
+    compile project(":vesta.application.user")
+    compile project(":vesta.common.result")
+    compile project(":vesta.application.pay")
+    compile ( "javax.servlet:javax.servlet-api:3.1.0")
+    compile project(":vesta.domain.user")
+    compile project(":vesta.common.utility")
+    compile project(":vesta.application.property")
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+}
